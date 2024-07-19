@@ -65,11 +65,11 @@
 
         fn {
             bindings = <
-&kp F11  &kp F1                &kp F2                &kp F3             &kp F4            &kp F5  &tog 1                                      &mo 3   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
-&trans   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans  &none                                       &none   &trans  &trans  &trans  &trans  &trans   &trans
-&trans   &kp C_MUTE            &kp C_PREVIOUS        &kp C_NEXT         &kp C_PLAY_PAUSE  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans  &trans   &trans
-&trans   &trans                &trans                &trans             &trans            &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans   &trans
-&trans   &trans                &trans                &trans             &trans                    &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans   &trans
+&kp F11  &kp F1                &kp F2                &kp F3             &kp F4            &kp F5  &tog 1                                          &mo 3   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
+&trans   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans  &none                                           &none   &trans  &trans  &trans  &trans  &trans   &trans
+&trans   &kp C_MUTE            &kp C_PREVIOUS        &kp C_NEXT         &kp C_PLAY_PAUSE  &trans  &none   &trans  &trans      &trans  &macro_ver  &none   &trans  &trans  &trans  &trans  &trans   &trans
+&trans   &trans                &trans                &trans             &trans            &trans                  &trans      &trans                      &trans  &trans  &trans  &trans  &trans   &trans
+&trans   &trans                &trans                &trans             &trans                    &trans  &trans  &trans      &trans  &trans      &trans          &trans  &trans  &trans  &trans   &trans
             >;
         };
 
