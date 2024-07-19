@@ -34,7 +34,7 @@
         macro_ls: macro_ls {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LEFT_COMMAND &kp LEFT_CONTROL &kp Q>;
+            bindings = <&macro_tap &kp LEFT_COMMAND &kp LEFT_CONTROL &kp Q>;
 
             label = "macro_lscr";
         };
