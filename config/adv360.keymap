@@ -17,11 +17,11 @@
             bindings = <&kp RET>;
         };
 
-        macro_ls: macro_lock_screen {
+        macro_ls: macro_ls {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp Q>;
-            label = "MACRO_LOCK_SCREEN";
+            label = "MACRO_LS";
         };
 
         #endif
