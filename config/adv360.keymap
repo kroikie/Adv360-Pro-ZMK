@@ -36,7 +36,8 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp Q &kp LEFT_CONTROL &kp LEFT_COMMAND>;
+                <&kp Q &kp LEFT_CONTROL &kp LEFT_COMMAND>,
+                <&macro_release>;
 
             label = "macro_lscr";
         };
