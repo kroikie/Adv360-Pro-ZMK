@@ -17,13 +17,6 @@
             bindings = <&kp RET>;
         };
 
-        macro_ls: macro_ls {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp Q>;
-            label = "macro_lscr";
-        };
-
         #endif
 
         hm: homerow_mods {
@@ -38,6 +31,12 @@
     };
 
     macros {
+      macro_ls: macro_ls {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp Q>;
+            label = "macro_lscr";
+        };
     };
 
     keymap {
